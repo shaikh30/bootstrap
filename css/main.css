@@ -1,0 +1,61 @@
+body {
+	padding: 80px 0 30px;
+	color: #ddd;
+	background-color: #222;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0,0,0, .2) 35px, rgba(0,0,0, .2) 70px);
+	background-attachment: fixed;
+}
+img {
+	max-width: 100%;
+}
+hr {
+	border-color: #555;
+}
+hr.visible-xs {
+	clear: both;
+}
+.well {
+	background: #333;
+	border-color: #444;
+}
+.btn-default {
+	background: #444;
+	border-color: #666;
+	color: #ddd;
+}
+.btn-default:hover {
+	background: #555;
+	color: #ddd;
+}
+.img-thumbnail {
+	background-color: #444;
+	border-color: #666;
+}
+nav .glyphicon-comment {
+	font-size: 1.2em;
+	line-height: 0;
+	margin-left: 10px;
+	position: relative;
+	top: .2em;
+}
+@media (min-width: 371px) and (max-width: 767px) {
+	.img-thumbnail {
+		float: right;
+		width: 40%;
+		margin: 10px 0 20px 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+	.upcoming-shows .btn {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 599px) {
+	footer .col-xs-6 {
+		width: 100%;
+	}
+	footer .nav-pills.pull-right {
+		float: none !important;
+		margin-left: -15px;
+	}
+}
